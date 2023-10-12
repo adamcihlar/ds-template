@@ -35,7 +35,8 @@ This repo serves as a general template for DS/ML/AI projects with a more or less
 	* The `config.yaml` file stores constants, parameters and can contain multiple different setups. Every inner file of the `config.yaml` contains field `name`, based on which the whole configuration is loaded. The structure of this file is dependant on the project itself and may be subject to change even after the project is finished.
 	* The `paths.py` defines and documents the structure of the repo. Unlike the `config.yaml`, this structure should remain fixed once defined.
 * Dockerfiles.
-* Helper functions and everything reusable across the whole project is stored in `utilities.py`.
+* Credentials can be stored in `.env` file.
+* Helper functions and everything reusable across the whole project is stored in `utils.py`. The script contains two basic functions to load `config.yaml` and `.env`.
 
 ### Notes:
 * Based on the size of the project, the single steps and elements above correspond to single scripts or separate directories.
