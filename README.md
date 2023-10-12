@@ -40,5 +40,5 @@ This repo serves as a general template for DS/ML/AI projects with a more or less
 ### Notes:
 * Based on the size of the project, the single steps and elements above correspond to single scripts or separate directories.
 * The repo is WIP.
-* Next step to figure out is credentials.
+* Next step to figure out is credentials, logs saving, experimentation tracking.
 
